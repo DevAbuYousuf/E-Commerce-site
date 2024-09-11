@@ -1,0 +1,28 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*common code ends*/
+/*product details start */
+.product-item{
+    overflow: hidden;
+}
+.product-item img{
+    cursor: pointer;
+    transition: all 0.5s linear;
+
+}
+.product-item img:hover{
+    transform: scale(1.2);
+}
+/*product details ends*/
+/*navbar start*/
+.navbar{
+    background-color: #f85606;
+}
+.navbar-brand img{
+    width: 150px;
+}
+/*navbar end*/
